@@ -168,6 +168,11 @@ main h1{
     height: 2em;
 }
 
+.tipo1 select{
+    width: 10em;
+    height: 2em;
+}
+
 .cards{
     width: 95%;
     display: flex;
@@ -266,5 +271,39 @@ main h1{
     .sali h4 {
         display: none;
     }
+    
+    main h1{
+        font-size: 2em;
+    }
+    .cate_esta{
+        height: auto;
+        padding: 10px;
+    }
 
+    .cate_esta .cate{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tipo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tipo select{
+        width: 12em;
+    }
+
+    .tipo1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+
+    .tipo1 select{
+        width: 12em;
+    }
+
+    
 }
