@@ -30,13 +30,11 @@ header{
     background: var(--azulnegro);
     width: 14em;
     height: 100vh;
-    
 }
 
 .menu-lateral{
     display: flex;
     flex-direction: column;
-
 }
 
 .logo-user{
@@ -116,7 +114,9 @@ header{
     cursor: pointer;
 }
 
-
+.sali{
+    margin-top: 3em;
+}
 
 .sali .option1 {
     background: #373841;
@@ -264,15 +264,12 @@ form{
         height: max-content;
     }
 
-
-
     .actua h1{
         font-size: 20px;
     }
 
     .actua{
-        width: 75%;
-        margin-left: 5em;
+        width: 90%;
         border-radius: 10px;
         padding: 0;
     }
@@ -320,10 +317,11 @@ form{
 
     form{
         width: 85%;
-        padding: 15px;
     }
 
-
+    .form .input{
+        width: 100%;
+    }
     .boton{
         margin-left: 0;
     }
